@@ -56,6 +56,14 @@ body {
   background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
 }
 
+iframe {
+    display: block;
+    background: #000;
+    border: none;
+    height: calc(100vh);
+    width: 100%;
+}
+
 a {
   color: #d5000d;
 }
@@ -92,6 +100,7 @@ header h2 {
 .inner {
   width: 620px;
   margin: 0 auto;
+  height: 100px;
 }
 
 #container .inner img {
